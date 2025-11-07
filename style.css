@@ -1,0 +1,37 @@
+*{  font-family: "Archivo Black", sans-serif;}
+
+
+
+
+
+*{  font-family: "Archivo Black", sans-serif;}
+
+
+
+
+
+.bg-image{
+    background-image:url('./bg.jpg');
+    background-size: cover;   /*fill entire area */
+    background-position: center;  /*center the image*/
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+
+
+.menu{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 1rem;
+}
+
+
+
+.card:hover{
+    transform: translateY(-5px);
+}
+
+
+
+
